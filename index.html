@@ -22,15 +22,20 @@
     <div class="container">
       <div class="inner">
         <div class="logo">BOUNCY</div>
+        <div class="header-burger">
+          <span></span>
+        </div>
         <nav class="nav">
-          <a class="meny" href="#">Hello</a>
-          <a class="meny" href="#">About</a>
-          <a class="meny" href="#">Services</a>
-          <a class="meny" href="#">Portfolio</a>
-          <a class="meny" href="#">Team</a>
-          <a class="meny" href="#">Blog</a>
-          <a class="meny" href="#">Contact</a>
-        </nav>
+          <ul class="meny-list">
+            <li><a data-goto =".Hello" class="meny" href="#">Hello</a></li>
+            <li><a data-goto =".about" class="meny" href="#">About</a></li>
+            <li><a data-goto =".Services" class="meny" href="#">Services</a></li>
+            <li><a data-goto =".THE_PORTFOLIO" class="meny" href="#">Portfolio</a></li>
+            <li><a data-goto =".THE_TEAM" class="meny" href="#">Team</a></li>
+            <li><a data-goto =".BLOG" class="meny" href="#">Blog</a></li>
+            <li><a data-goto =".CONTACT-US_bloc" class="meny" href="#">Contact</a></li>
+          </ul>
+        </nav> 
       </div>
     </div>
   </header>
@@ -580,7 +585,7 @@
 
 
       <div class="PORTFOLIO_CTA">
-       <div class="text_footer">
+        <div class="text_footer">
           At vero eos et <b> accusamus </b> et iusto odio
           <b> dignissimos</b> ducimus qui blanditiis
         </div>
@@ -1030,9 +1035,12 @@
 
 
 
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
 
-
-
+  <script src="script/javascript.js"></script>
 </body>
 
 </html>
